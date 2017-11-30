@@ -47,7 +47,6 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-<script type="text/javascript" src="js/fullpageanimation.js"></script>
 <script type="text/javascript">
 		Set_Cookie( 'test', 'none', '', '/', '', '' );
 		if ( Get_Cookie( 'test' ) )
@@ -59,11 +58,15 @@
 		else
 	{
     		document.write( 'cookies are not currently enabled.' );
-    	cookie_set = false;
+    		cookie_set = false;
 	}
 </script>
 </head>
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" onload="ApplyAnimationToElement(document.body, 'fadeIn')">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<script type="text/javascript" src="js/fullpageanimation.js"></script>
+    <script type="text/javascript">
+        SetupBodyBringToViewAnimation("rotateInLeft");
+    </script>
 <nav id="menu" class="navbar navbar-default navbar-fixed-top">
   <div class="container"> 
     <div class="navbar-header">
