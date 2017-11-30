@@ -1,5 +1,3 @@
-# www
-This is the Project Recluse website (https://recluse.network)
+This is the Project Recluse r(NET) website (https://recluse.network)
 
-Anax
-Natalia
+Anax Natalia ;-}
