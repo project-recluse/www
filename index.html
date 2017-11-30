@@ -63,7 +63,7 @@
         <li><a href="#portfolio" class="page-scroll">Ecosystem</a></li>
         <li><a href="#team" class="page-scroll">Future</a></li>
 	<li><a href="#os" class="page-scroll">FORKd</a></li>
-        <li><a href="#call-reservation" class="page-scroll">Join</a></li>
+        <li><a href="#call-reservation" class="page-scroll">Join US</a></li>
 	<li><a href="#donate" class="page-scroll">Donate</a></li>
       </ul>
     </div>
@@ -372,6 +372,24 @@
       <p><h2>Subscribe to our mailing list</h2></p>
     </div>
     <div class="col-md-10 col-md-offset-1">
+	{% if page.comments %}
+	<div id="disqus_thread"></div>
+    	<script type="text/javascript">
+        	/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        	var disqus_shortname = 'projectrecluse'; // required: replace example with your forum shortname
+        	// var disqus_developer = 1; // Comment out when the site is live
+        	var disqus_identifier = "{{ page.url }}";
+
+        	/* * * DON'T EDIT BELOW THIS LINE * * */
+        	(function() {
+            		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+       	 	})();
+    	</script>
+    	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
+	    <br />
 	    <h3><a href="http://eepurl.com/dcdDAb" target="_blank">We use <img src="https://res.cloudinary.com/project-recluse/image/upload/q_68/v1512021104/img/mailchimp_logo.png" alt="Subscribe!" border="0" height="70" width="auto"> to send out our updates! </a></h3>
     </div>
   </div>
