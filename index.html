@@ -371,12 +371,14 @@
     <div class="section-title text-center">
       <p><h2>Subscribe to our mailing list</h2></p>
     </div>
-    <div class="col-md-10 col-md-offset-1">
-	{% if page.comments %}
-	<div id="disqus_thread"></div>
-    	<script type="text/javascript">
-        	/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        	var disqus_shortname = 'projectrecluse'; // required: replace example with your forum shortname
+    <div class="col-md-10 col-md-offset-1">	    
+	    <h2><a href="http://eepurl.com/dcdDAb" target="_blank">We use <img src="https://res.cloudinary.com/project-recluse/image/upload/q_68/v1512021104/img/mailchimp_logo.png" alt="Subscribe!" border="0" height="70" width="auto"> to send out our updates! </a></h2>
+	    <br />
+	    <br />
+	    <div id="disqus_thread"></div>
+    	    <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            	var disqus_shortname = 'projectrecluse'; // required: replace example with your forum shortname
         	// var disqus_developer = 1; // Comment out when the site is live
         	var disqus_identifier = "{{ page.url }}";
 
@@ -388,9 +390,7 @@
        	 	})();
     	</script>
     	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-{% endif %}
-	    <br />
-	    <h3><a href="http://eepurl.com/dcdDAb" target="_blank">We use <img src="https://res.cloudinary.com/project-recluse/image/upload/q_68/v1512021104/img/mailchimp_logo.png" alt="Subscribe!" border="0" height="70" width="auto"> to send out our updates! </a></h3>
+	<br />
     </div>
   </div>
 </div>
