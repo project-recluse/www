@@ -242,7 +242,7 @@ header .intro-text {
 	padding: 0 0 60px 0;
 }
 #restaurant-menu .section-title {
-	background: #444 url(../img/menu-bg.jpg) center center no-repeat fixed;
+	background: #444 url(https://res.cloudinary.com/project-recluse/image/upload/q_64/v1512019356/img/menu-bg.jpg) center center no-repeat fixed;
 	background-size: cover;
 }
 #restaurant-menu .section-title h2 {
@@ -295,7 +295,7 @@ header .intro-text {
 	padding: 0 0 120px 0;
 }
 #portfolio .section-title {
-	background: #444 url(../img/gallery-bg.jpg) center center no-repeat fixed;
+	background: #444 url(https://res.cloudinary.com/project-recluse/image/upload/q_64/v1512019356/img/gallery-bg.jpg) center center no-repeat fixed;
 	background-size: cover;
 	margin-bottom: 50px;
 }
@@ -415,7 +415,7 @@ ol.type li a:hover {
 /* Team Section */
 #team {
 	color: #fff;
-	background: #444 url(../img/team-bg.jpg) center top no-repeat fixed;
+	background: #444 url(https://res.cloudinary.com/project-recluse/image/upload/q_64/v1512019356/img/team-bg.jpg) center top no-repeat fixed;
 	background-size: cover;
 }
 #team .overlay {
