@@ -1,3 +1,3 @@
-# This is the Project Recluse r(NET) website (https://project-recluse.org)
+# This is the Project Recluse r(NET) website (https://recluse.network)
 
 Anax Natalia
