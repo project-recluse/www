@@ -400,9 +400,23 @@
   <div class="container text-center">
 	  <br />
 	  <h2>Donate to our project?</h2>
-	  <img src="https://res.cloudinary.com/project-recluse/image/upload/c_scale,q_100,w_100/v1512020197/img/BITCOIN.png" alt="Donate with Bitcoin!"> <h6><b>Bitcoin:</b></h6> 1AnM67z5eLXu3n2MrzvHcZE1ZHSjmsqUPX 
-	  <img src="https://res.cloudinary.com/project-recluse/image/upload/c_scale,q_100,w_100/v1512020197/img/eth.png" alt="Donate with Ethereum!"><h6><b>Ethereum:</b></h6> 0xbBcd1B411aA1D73B0b9259B1A333b9db16A8561A 
-	  <img src="https://res.cloudinary.com/project-recluse/image/upload/c_scale,q_auto:best,w_100/v1512020197/img/dash.png" alt="Donate with DASH!"><h6><b>DASH:</b></h6> XkywYfQBMJJjY9kB2MZn9jpwNjNtv2nTCa 
+	  <form action="https://www.coinpayments.net/index.php" method="post">
+	<input type="hidden" name="cmd" value="_donate">
+	<input type="hidden" name="reset" value="1">
+	<input type="hidden" name="merchant" value="b4d929329e8d770107513e2e767ddb3b">
+	<input type="hidden" name="item_name" value="rnet">
+	<input type="hidden" name="item_number" value="1">
+	<input type="hidden" name="invoice" value="1">
+	<input type="hidden" name="currency" value="USD">
+	<input type="hidden" name="amountf" value="10.00000000">
+	<input type="hidden" name="allow_amount" value="1">
+	<input type="hidden" name="want_shipping" value="1">
+	<input type="hidden" name="success_url" value="https://recluse.network/success.html">
+	<input type="hidden" name="cancel_url" value="https://recluse.network/abort.html">
+	<input type="hidden" name="allow_extra" value="1">
+	<input type="image" src="https://www.coinpayments.net/images/pub/donate-wide-yellow.png" alt="Donate with CoinPayments.net">
+</form>
+
 	  <font color="white">Bitcoin Ethereum DASH anonymous currency. Crypto currency bitcoin ethereum dash steem tor anonymous vpn services </font>
 	  <br />
   </div>
@@ -415,7 +429,7 @@
           <li><a href="https://github.com/project-recluse" target="_blank"><i class="fa fa-github"></i></a></li>
         </ul>
       </div>
-      <p>&copy; 2017 Project Recluse, all rights reserved. </p>
+      <p>&copy; 2017-2018 Project Recluse, all rights reserved. </p>
 	    <br />
 	    <p><a href="https://github.com/project-recluse/www/wiki">Project Recluse Wiki</a> | <a href="#">Project Recluse White Paper</a> | <a href="rndns-specs.txt">RNDNS Technical Data</a> | <a href="https://github.com/project-recluse/www/issues">Bug Tracking</a></p>
 	    <br />
